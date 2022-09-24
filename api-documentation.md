@@ -73,7 +73,9 @@ POST /topic
 }
 ```
 ### Response
-#### 200 OK
+#### 200 OK    
+//only 200 as confirmation
+// get request is same as below (use get to get the new created topic)
 ```ts
 {
   uuid: string
